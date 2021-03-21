@@ -25,6 +25,11 @@ a {
   text-decoration: none;
 }
 
+ol,
+ul {
+  list-style-type: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
