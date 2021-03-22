@@ -261,3 +261,5 @@ const clubs = [
     website: 'http://www.villarrealcf.es/',
   },
 ];
+
+export default clubs;

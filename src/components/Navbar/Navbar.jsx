@@ -7,12 +7,18 @@ const Navbar = () => {
   return (
     <header className="header">
       <div className="header__logo">
-        <img src={logo} alt="Logo" />
+        <img className="header__logo-logo" src={logo} alt="Logo" />
       </div>
       <nav className="header__nav">
-        <Link to="/">Home</Link>
-        <Link to="/clubs">Clubs</Link>
-        <Link to="/technologies">Innovation & Technology</Link>
+        <Link className="header__nav-link" to="/">
+          Home
+        </Link>
+        <Link className="header__nav-link" to="/technologies">
+          Technologies
+        </Link>
+        <Link className="header__nav-link" to="/clubs">
+          Clubs
+        </Link>
       </nav>
     </header>
   );
