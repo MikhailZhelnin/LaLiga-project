@@ -7,7 +7,7 @@ const Technologies = () => {
     <section className="technologies">
       <div className="container">
         <div className="technologies__wrapper">
-          <h2 className="technologies__title">Innovations & Technologies</h2>
+          <h2 className="technologies__title">Technologies</h2>
           <div className="technologies__img">
             <img className="technologies__img-img" src={camera} alt="Camera" />
           </div>

@@ -15,3 +15,15 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+@media (max-width: 760px) {
+  .clubs__title {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 600px) {
+  .clubs__title {
+    font-size: 30px;
+  }
+}

@@ -42,3 +42,16 @@
 .header__nav-link:nth-child(3):hover {
   background-color: #00963f;
 }
+
+@media (max-width: 600px) {
+  .header__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header__nav-link {
+    margin-right: 0;
+  }
+}

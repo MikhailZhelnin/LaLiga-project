@@ -35,3 +35,35 @@
   font-size: 18px;
   color: #254150;
 }
+
+@media (max-width: 1024px) {
+  .technologies__img {
+    max-width: 600px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 760px) {
+  .technologies__img {
+    max-width: 500px;
+    height: 400px;
+  }
+
+  .technologies__title {
+    font-size: 35px;
+  }
+
+  .technologies__text p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .technologies__title {
+    font-size: 30px;
+  }
+
+  .technologies__text p {
+    font-size: 15px;
+  }
+}

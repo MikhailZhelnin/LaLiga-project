@@ -23,8 +23,6 @@ const clubs = [
   {
     id: 1,
     name: 'Athletic Bilbao',
-    full_name: 'Athletic Bilbao',
-    nickname: 'Los Leones (The Lions)',
     stadium: 'San Mamés',
     coach: 'Marcelino',
     logo: bilbao,
@@ -35,8 +33,6 @@ const clubs = [
   {
     id: 2,
     name: 'Atlético Madrid',
-    full_name: 'Club Atlético de Madrid',
-    nickname: '',
     stadium: 'Wanda Metropolitano',
     coach: 'Diego Simeone',
     logo: atletico,
@@ -47,8 +43,6 @@ const clubs = [
   {
     id: 3,
     name: 'CA Osasuna',
-    full_name: 'Club Atlético Osasuna',
-    nickname: 'Gorritxoak, Los Rojillos',
     stadium: 'El Sadar',
     coach: 'Jagoba Arrasate',
     logo: osasuna,
@@ -59,8 +53,6 @@ const clubs = [
   {
     id: 4,
     name: 'Cádiz CF',
-    full_name: 'Cádiz Club de Fútbol',
-    nickname: 'Los Piratas, El Submarino Amarillo',
     stadium: 'Ramón de Carranza',
     coach: 'Álvaro Cervera',
     logo: cadiz,
@@ -71,8 +63,6 @@ const clubs = [
   {
     id: 5,
     name: 'Deportivo Alavés',
-    full_name: 'Deportivo Alavés',
-    nickname: 'Babazorros, El Glorioso (The glorious one)',
     stadium: 'Mendizorrotza',
     coach: 'Abelardo Fernández',
     logo: alaves,
@@ -83,9 +73,7 @@ const clubs = [
   {
     id: 6,
     name: 'Elche CF',
-    full_name: 'Elche Club de Fútbol',
-    nickname: 'Los Franjiverdes / Els frangiverds (The Green-striped ones)',
-    stadium: 'Estadio Manuel Martínez Valero',
+    stadium: 'Manuel Martínez Valero',
     coach: 'Fran Escribá',
     logo: elche,
     city: '  Elche',
@@ -95,8 +83,6 @@ const clubs = [
   {
     id: 7,
     name: 'FC Barcelona',
-    full_name: 'Futbol Club Barcelona',
-    nickname: 'Barça or Blaugrana, Culers',
     stadium: 'Camp Nou',
     coach: 'Ronald Koeman',
     logo: barca,
@@ -107,8 +93,6 @@ const clubs = [
   {
     id: 8,
     name: 'Getafe CF',
-    full_name: 'Getafe Club de Fútbol',
-    nickname: '',
     stadium: 'Coliseum Alfonso Pérez',
     coach: 'José Bordalás',
     logo: getafe,
@@ -119,9 +103,7 @@ const clubs = [
   {
     id: 9,
     name: 'Granada CF',
-    full_name: 'Granada Club de Fútbol',
-    nickname: 'Nazaríes (Nasrids)',
-    stadium: 'Nuevo Los Cármenes Stadium',
+    stadium: 'Nuevo Los Cármenes',
     coach: 'Diego Martínez',
     logo: granada,
     city: 'Granada',
@@ -131,8 +113,6 @@ const clubs = [
   {
     id: 10,
     name: 'Levante UD',
-    full_name: 'Levante Unión Deportiva',
-    nickname: 'Granotas (The Frogs)',
     stadium: 'Ciutat de València',
     coach: 'Paco López',
     logo: levante,
@@ -143,8 +123,6 @@ const clubs = [
   {
     id: 11,
     name: 'RC Celta',
-    full_name: 'Real Club Celta de Vigo',
-    nickname: 'Los/Os Celestes (The Sky Blues)',
     stadium: 'Balaídos',
     coach: 'Eduardo Coudet',
     logo: celta,
@@ -155,9 +133,7 @@ const clubs = [
   {
     id: 12,
     name: 'Real Betis',
-    full_name: 'Real Betis Balompié',
-    nickname: 'Los Verdiblancos (The Green-and-Whites), Heliopolitanos (Heliopolitans)',
-    stadium: 'Estadio Benito Villamarín',
+    stadium: 'Benito Villamarín',
     coach: 'Manuel Pellegrini',
     logo: real_betis,
     city: 'Seville',
@@ -167,9 +143,7 @@ const clubs = [
   {
     id: 13,
     name: 'Real Madrid',
-    full_name: 'Real Madrid Club de Fútbol',
-    nickname: 'Los Blancos (The Whites), La Casa Blanca (The White House)',
-    stadium: 'Estadio Santiago Bernabéu',
+    stadium: 'Santiago Bernabéu',
     coach: 'Zinedine Zidane',
     logo: real_madrid,
     city: 'Madrid',
@@ -179,9 +153,7 @@ const clubs = [
   {
     id: 14,
     name: 'Real Sociedad',
-    full_name: 'Real Sociedad de Fútbol',
-    nickname: 'Los Txuri-Urdin (The White and Blues)',
-    stadium: 'Anoeta Stadium',
+    stadium: 'Anoeta',
     coach: 'Imanol Alguacil',
     logo: sociedad,
     city: 'San Sebastián',
@@ -191,8 +163,6 @@ const clubs = [
   {
     id: 15,
     name: 'Real Valladolid CF',
-    full_name: 'Real Valladolid Club de Fútbol',
-    nickname: 'Pucela / Pucelanos (Pucelle)',
     stadium: 'José Zorrilla',
     coach: 'Sergio González',
     logo: valladolid,
@@ -203,9 +173,7 @@ const clubs = [
   {
     id: 16,
     name: 'SD Eibar',
-    full_name: 'Sociedad Deportiva Eibar',
-    nickname: 'Armagiñak / Los Armeros (The Gunsmiths)',
-    stadium: 'Ipurua Municipal Stadium',
+    stadium: 'Ipurua Municipal',
     coach: 'José Luis Mendilibar',
     logo: eibar,
     city: ' Eibar',
@@ -215,8 +183,6 @@ const clubs = [
   {
     id: 17,
     name: 'SD Huesca',
-    full_name: 'Sociedad Deportiva Huesca',
-    nickname: 'Oscenses, Azulgranas',
     stadium: 'El Alcoraz',
     coach: 'Pacheta',
     logo: huesca,
@@ -227,9 +193,7 @@ const clubs = [
   {
     id: 18,
     name: 'Sevilla FC',
-    full_name: 'Sevilla Fútbol Club',
-    nickname: 'Los Nervionenses/Los Palanganas',
-    stadium: 'Estadio Ramón Sánchez Pizjuán',
+    stadium: 'Ramón Sánchez Pizjuán',
     coach: 'Julen Lopetegui',
     logo: sevilla,
     city: ' Seville',
@@ -239,8 +203,6 @@ const clubs = [
   {
     id: 19,
     name: 'Valencia CF',
-    full_name: 'Valencia Club de Fútbol',
-    nickname: 'Los murciélagos (The Bats)',
     stadium: 'Mestalla',
     coach: 'Javi Gracia',
     logo: valencia,
@@ -251,8 +213,6 @@ const clubs = [
   {
     id: 20,
     name: 'Villarreal CF',
-    full_name: 'Villarreal Club de Fútbol',
-    nickname: 'El Submarino Amarillo (The Yellow Submarine)',
     stadium: 'Estadio de la Cerámica',
     coach: 'Unai Emery',
     logo: villareal,
