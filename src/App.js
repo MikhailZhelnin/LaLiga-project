@@ -1,11 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import './App.scss';
 
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import Clubs from './components/Clubs/Clubs';
 import Technologies from './components/Technologies/Technologies';
+
+import './App.scss';
 
 function App() {
   return (

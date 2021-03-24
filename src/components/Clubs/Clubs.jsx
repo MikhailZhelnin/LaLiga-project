@@ -1,6 +1,8 @@
 import React from 'react';
+
 import data from '../../data';
 import Club from './Club/Club';
+
 import './Clubs.scss';
 
 const Clubs = () => {

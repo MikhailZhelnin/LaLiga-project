@@ -1,6 +1,8 @@
 import React from 'react';
-import './Technologies.scss';
+
 import camera from '../../image/camera.jpg';
+
+import './Technologies.scss';
 
 const Technologies = () => {
   return (

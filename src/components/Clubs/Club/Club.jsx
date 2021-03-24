@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './Club.scss';
 
 const Club = ({ name, logo, stadium, coach, city, foundation, website }) => {
