@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .header {
   margin-bottom: 20px;
 }
@@ -17,14 +19,14 @@
   display: flex;
   justify-content: center;
   padding: 10px 0;
-  background-color: #10202a;
+  background-color: $color-nav-back;
 }
 
 .header__nav-link {
   margin-right: 15px;
   padding: 5px 15px;
-  font-size: 17px;
-  color: #fff;
+  font-size: $fz-nav-link;
+  color: $color-nav;
   border-radius: 4px;
   transition: background-color 0.2s linear;
 }
@@ -34,13 +36,13 @@
 }
 
 .header__nav-link:nth-child(1):hover {
-  background-color: #e40613;
+  background-color: $color-nav-link-1;
 }
 .header__nav-link:nth-child(2):hover {
-  background-color: #01509f;
+  background-color: $color-nav-link-2;
 }
 .header__nav-link:nth-child(3):hover {
-  background-color: #00963f;
+  background-color: $color-nav-link-3;
 }
 
 @media (max-width: 600px) {

@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .technologies {
 }
 
@@ -9,8 +11,8 @@
 
 .technologies__title {
   margin-bottom: 15px;
-  font-size: 40px;
-  color: #10202a;
+  font-size: $fz-title-main;
+  color: $color-section-title;
 }
 
 .technologies__img {
@@ -32,8 +34,8 @@
 
 .technologies__text p {
   margin-bottom: 10px;
-  font-size: 18px;
-  color: #254150;
+  font-size: $fz-text;
+  color: $color-section-text;
 }
 
 @media (max-width: 1024px) {

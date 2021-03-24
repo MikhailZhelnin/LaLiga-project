@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .clubs {
 }
 
@@ -6,8 +8,9 @@
 
 .clubs__title {
   margin-bottom: 15px;
-  font-size: 40px;
+  font-size: $fz-title-main;
   text-align: center;
+  color: $color-section-title;
 }
 
 .clubs__block {

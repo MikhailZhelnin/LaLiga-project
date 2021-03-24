@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .home {
 }
 
@@ -7,9 +9,9 @@
 .home__title {
   margin-bottom: 15px;
   text-align: center;
-  font-size: 40px;
+  font-size: $fz-title-main;
   font-weight: 600;
-  color: #10202a;
+  color: $color-section-title;
 }
 
 .home__text {
@@ -19,8 +21,8 @@
 
 .home__text p {
   margin-bottom: 5px;
-  font-size: 18px;
-  color: #254150;
+  font-size: $fz-text;
+  color: $color-section-text;
 }
 
 @media (max-width: 760px) {

@@ -1,3 +1,5 @@
+@import '../../../variables.scss';
+
 .club {
   width: 100%;
   max-width: 325px;
@@ -10,7 +12,7 @@
 .club__logo {
   height: 250px;
   position: relative;
-  background-color: #254550;
+  background-color: $color-club-logo-back;
 }
 
 .club__logo-logo {
@@ -25,13 +27,13 @@
 
 .club__name {
   padding: 10px 10px;
-  background-color: #10202a;
+  background-color: $color-club-name-back;
   text-align: center;
 }
 
 .club__name > h4 {
-  color: #fff;
-  font-size: 24px;
+  color: $color-club-name-text;
+  font-size: $fz-club-name;
 }
 
 .club__info {
@@ -40,33 +42,33 @@
   justify-content: center;
   align-items: center;
   padding: 15px 10px;
-  background-color: #254550;
+  background-color: $color-club-info-back;
 }
 
 .club__info > h3 {
-  font-size: 19px;
-  color: #fff;
+  font-size: $fz-club-info;
+  color: $color-club-info-text;
 }
 
 .club__info > h3 > span {
-  font-size: 15px;
-  color: #fff;
+  font-size: $fz-club-info-span;
+  color: $color-club-info-text;
   font-style: italic;
 }
 
 .club__website {
   margin-top: 15px;
   padding: 5px 10px;
-  font-size: 15px;
+  font-size: $fz-club-website;
   font-weight: 700;
   text-transform: uppercase;
-  color: #10202a;
-  background-color: #92daec;
+  color: $color-club-website-text;
+  background-color: $color-club-website-back;
   transition: background-color 0.2s linear;
 }
 
 .club__website:hover {
-  background-color: #6da3b1;
+  background-color: $color-club-website-back-hover;
 }
 
 @media (max-width: 1024px) {
